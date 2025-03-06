@@ -154,8 +154,8 @@ class _CupertinoSearchPage extends StatelessWidget {
                         placeholderStyle: const TextStyle(
                             color: CupertinoColors.secondaryLabel),
                         suffix: CupertinoButton(
-                          padding: EdgeInsetsDirectional.fromSTEB(0, 0, 5, 2),
-                          child: Icon(
+                          padding: const EdgeInsetsDirectional.fromSTEB(0, 0, 5, 2),
+                          child: const Icon(
                             CupertinoIcons.xmark_circle_fill,
                             size: iconSize,
                             color: CupertinoColors.secondaryLabel,
