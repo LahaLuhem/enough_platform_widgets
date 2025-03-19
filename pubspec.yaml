@@ -16,10 +16,14 @@ dependencies:
   cupertino_progress_bar: ^0.2.0
   flutter:
     sdk: flutter
-  flutter_platform_widgets: ^9.0.0
+  flutter_platform_widgets:
+   git:
+    url: https://github.com/M-Ahal/flutter_platform_widgets.git
+    ref: "d4e1dd2243d0843a5c62afb1faf64889c0789ceb"
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  very_good_analysis: ^7.0.0
 
 flutter:
