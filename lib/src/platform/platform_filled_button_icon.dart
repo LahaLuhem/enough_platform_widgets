@@ -9,7 +9,7 @@ class PlatformFilledButtonIcon extends StatelessWidget {
   final void Function()? onLongPress;
   final Widget icon;
   final Widget label;
-  final bool? autofocus;
+  final bool autofocus;
   final ButtonStyle? style;
   final FocusNode? focusNode;
   final Clip? clipBehavior;
@@ -25,7 +25,7 @@ class PlatformFilledButtonIcon extends StatelessWidget {
     required this.icon,
     this.onLongPress,
     required this.label,
-    this.autofocus,
+    this.autofocus = false,
     this.style,
     this.focusNode,
     this.clipBehavior,
