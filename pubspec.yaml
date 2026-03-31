@@ -3,9 +3,9 @@ description: Useful platform aware widgets to develop a Flutter app with either 
 version: 1.1.2
 homepage: https://github.com/Enough-Software/enough_platform_widgets
 topics: 
- - cupertino
- - material
- - widgets
+  - cupertino
+  - material
+  - widgets
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
@@ -17,13 +17,13 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_platform_widgets:
-   git:
-    url: https://github.com/M-Ahal/flutter_platform_widgets.git
-    ref: "d4e1dd2243d0843a5c62afb1faf64889c0789ceb"
+    git:
+      url: https://github.com/M-Ahal/flutter_platform_widgets.git
+      ref: "c63e71e4614a098d1a212620a16e7b76db05dc05"
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  very_good_analysis: ^7.0.0
+  very_good_analysis: ^10.2.0
 
 flutter:
