@@ -61,6 +61,7 @@ analyzer:
     - "**/*.chopper.dart"
     - "**/generated/**"
     - "**/*.g.dart"
+    - build/**
   language:
     strict-casts: true
     strict-raw-types: true

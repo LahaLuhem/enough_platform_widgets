@@ -4,7 +4,7 @@ version: 1.1.2
 # This package is discontinued and will no longer be published.
 publish_to: none
 homepage: https://github.com/Enough-Software/enough_platform_widgets
-topics: 
+topics:
   - cupertino
   - material
   - widgets
@@ -21,7 +21,7 @@ dependencies:
   flutter_platform_widgets:
     git:
       url: https://github.com/M-Ahal/flutter_platform_widgets.git
-      ref: "c63e71e4614a098d1a212620a16e7b76db05dc05"
+      ref: "8e2d68eec391282ed5a8b48d2f5338787b5e0b5a"
   material_ui: ^1.10.0
 
 dev_dependencies:
