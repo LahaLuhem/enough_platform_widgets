@@ -1,4 +1,6 @@
-import 'package:flutter/cupertino.dart';
+import 'package:cupertino_ui/cupertino_ui.dart'
+    show CupertinoIcons, CupertinoTheme, CupertinoThemeData;
+import 'package:flutter/widgets.dart';
 
 /// A simple cupertino style checkbox list tile.
 class CupertinoCheckboxListTile extends StatelessWidget {

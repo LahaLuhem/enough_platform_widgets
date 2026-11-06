@@ -1,6 +1,7 @@
+import 'package:cupertino_ui/cupertino_ui.dart' show CupertinoPageScaffold;
 import 'package:enough_platform_widgets/enough_platform_widgets.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+import 'package:material_ui/material_ui.dart' show Drawer;
 
 /// Creates a Drawer on material and a CupertinoPageScaffold on cupertiono
 class PlatformDrawer extends StatelessWidget {

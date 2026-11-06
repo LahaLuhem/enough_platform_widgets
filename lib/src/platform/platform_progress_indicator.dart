@@ -1,7 +1,8 @@
 import 'package:cupertino_progress_bar/cupertino_progress_bar.dart';
+import 'package:cupertino_ui/cupertino_ui.dart' show CupertinoActivityIndicator;
 import 'package:enough_platform_widgets/enough_platform_widgets.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+import 'package:material_ui/material_ui.dart' show CircularProgressIndicator;
 
 /// Uses a `CircularProgressIndicator` on material and a `CupertinoActivityIndicator` - or the 'CupertinoProgressBar' from the `cupertino_progress_bar` package when the given value is not null - on cupertino
 class PlatformProgressIndicator extends StatelessWidget {

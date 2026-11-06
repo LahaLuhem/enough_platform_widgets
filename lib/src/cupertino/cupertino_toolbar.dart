@@ -1,4 +1,5 @@
-import 'package:flutter/cupertino.dart';
+import 'package:cupertino_ui/cupertino_ui.dart' show CupertinoTheme;
+import 'package:flutter/widgets.dart';
 
 class CupertinoToolbar extends StatelessWidget {
   final List<Widget> children;

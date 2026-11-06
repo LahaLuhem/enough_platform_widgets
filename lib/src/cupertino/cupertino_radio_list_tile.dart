@@ -1,4 +1,11 @@
-import 'package:flutter/cupertino.dart';
+import 'package:cupertino_ui/cupertino_ui.dart'
+    show
+        CupertinoColors,
+        CupertinoIcons,
+        CupertinoTextThemeData,
+        CupertinoTheme,
+        CupertinoThemeData;
+import 'package:flutter/widgets.dart';
 
 /// A simple cupertino style readio list tile.
 class CupertinoRadioListTile<T> extends StatelessWidget {

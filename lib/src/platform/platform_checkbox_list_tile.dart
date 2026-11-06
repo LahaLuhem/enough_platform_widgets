@@ -1,5 +1,6 @@
 import 'package:enough_platform_widgets/enough_platform_widgets.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+import 'package:material_ui/material_ui.dart' show CheckboxListTile;
 
 /// A platform aware simple checkbox list tile
 class PlatformCheckboxListTile extends StatelessWidget {

@@ -9,7 +9,6 @@ More cross platform widgets for Flutter developers.
 
 Based on these great packages:
 * [flutter_platform_widgets](https://pub.dev/packages/flutter_platform_widgets)
-* [cupertino_stepper](cupertino_stepper)
 
 Licensed commercially friendly under the [MIT License](LICENSE).
 
@@ -45,7 +44,6 @@ Platform widgets use their material or cupertino equivalent based on the chosen 
 * `PlatformRadioListTile` provides a RadioListTile implementation for both material and cupertino
 * `PlatformSliverAppBar` uses a `SliverAppBar` on material or a `CupertinoSliverNavigationBar` on cupertino
 * `PlatformSnackApp` is a base app that allows to show SnackBars on cupertino as well
-* `PlatformStepper` abstracts the `Stepper` material widget
 * `PlatformTextButtonIcon` is a simple replacement for `TextButton.icon`
 * `PlatformToggleButtons` provides a platform aware `ToggleButtons` replacement
 * `PlatformToolbar` provides a toolbar option

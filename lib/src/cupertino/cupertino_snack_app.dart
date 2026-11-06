@@ -1,5 +1,8 @@
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
+import 'package:cupertino_ui/cupertino_ui.dart'
+    show CupertinoApp, CupertinoThemeData;
+import 'package:flutter/widgets.dart';
+import 'package:material_ui/material_ui.dart'
+    show Scaffold, ScaffoldMessenger, ScaffoldMessengerState;
 
 /// A CupertinoApp that also allows to display snack bar messages
 class CupertinoSnackApp extends StatelessWidget {

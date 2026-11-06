@@ -1,4 +1,6 @@
-import 'package:flutter/cupertino.dart';
+import 'package:cupertino_ui/cupertino_ui.dart'
+    show CupertinoPageScaffold, ObstructingPreferredSizeWidget;
+import 'package:flutter/widgets.dart';
 
 /// Provides a scaffold with the option to define a toolbar widget
 class CupertinoPageScaffoldWithToolbar extends StatelessWidget {

@@ -18,7 +18,6 @@ export 'platform_progress_indicator.dart';
 export 'platform_radio_list_tile.dart';
 export 'platform_sliver_appbar.dart';
 export 'platform_snack_app.dart';
-export 'platform_stepper.dart';
 export 'platform_text_button_icon.dart';
 export 'platform_time_picker.dart';
 export 'platform_toggle_buttons.dart';

@@ -1,8 +1,15 @@
 import 'dart:math';
 
+import 'package:cupertino_ui/cupertino_ui.dart'
+    show
+        CupertinoButton,
+        CupertinoIcons,
+        CupertinoPicker,
+        CupertinoTheme,
+        showCupertinoModalPopup;
 import 'package:enough_platform_widgets/src/platform/platform_icons.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+import 'package:material_ui/material_ui.dart' show DropdownMenuItem;
 
 /// Maps the basic dropdown feature to a CupertinoPicker
 class CupertinoDropdownButton<T> extends StatefulWidget {

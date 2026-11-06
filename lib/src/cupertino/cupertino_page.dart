@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/widgets.dart';
 
 /// A simple page with a bar that can be aligned top/bottom/left/right.
 class CupertinoPageWithBar extends StatelessWidget {

@@ -1,10 +1,20 @@
 import 'dart:ui' as ui show BoxHeightStyle, BoxWidthStyle;
 
+import 'package:cupertino_ui/cupertino_ui.dart'
+    show CupertinoTextField, CupertinoThemeData, OverlayVisibilityMode;
 import 'package:enough_platform_widgets/enough_platform_widgets.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/gestures.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter/widgets.dart';
+import 'package:material_ui/material_ui.dart'
+    show
+        ColorScheme,
+        InputCounterWidgetBuilder,
+        InputDecoration,
+        TextField,
+        TextSelectionThemeData,
+        Theme,
+        ThemeData;
 
 /// Provides a cross platform replacement for the material TextField
 class DecoratedPlatformTextField extends StatelessWidget {

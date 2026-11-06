@@ -1,5 +1,13 @@
 import 'package:enough_platform_widgets/enough_platform_widgets.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+import 'package:material_ui/material_ui.dart'
+    show
+        InkResponse,
+        InkRipple,
+        InkSplash,
+        InkWell,
+        InteractiveInkFeatureFactory,
+        ThemeData;
 
 /// A rectangular area of a that responds to touch.
 class PlatformInkWell extends StatelessWidget {

@@ -10,18 +10,19 @@ topics:
   - widgets
 
 environment:
-  sdk: ">=3.11.5 <4.0.0"
-  flutter: ">=3.41.7"
+  sdk: ">=3.13.0 <4.0.0"
+  flutter: ">=3.47.0"
 
 dependencies:
-  cupertino_stepper: ^0.2.1
   cupertino_progress_bar: ^0.2.0
+  cupertino_ui: ^1.1.6
   flutter:
     sdk: flutter
   flutter_platform_widgets:
     git:
       url: https://github.com/M-Ahal/flutter_platform_widgets.git
       ref: "c63e71e4614a098d1a212620a16e7b76db05dc05"
+  material_ui: ^1.10.0
 
 dev_dependencies:
   flutter_test:

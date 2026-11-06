@@ -1,6 +1,5 @@
 import 'package:enough_platform_widgets/enough_platform_widgets.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 /// Provides a basis for any cupertino (iOS / macOS) or material (Android, web) app.
 ///

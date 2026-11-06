@@ -1,4 +1,5 @@
-import 'package:flutter/cupertino.dart';
+import 'package:cupertino_ui/cupertino_ui.dart' show CupertinoButton;
+import 'package:flutter/widgets.dart';
 
 /// A cupertino version of the material `Chip` widget
 class CupertinoChip extends StatelessWidget {

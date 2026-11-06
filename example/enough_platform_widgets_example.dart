@@ -1,5 +1,7 @@
 import 'package:enough_platform_widgets/enough_platform_widgets.dart';
-import 'package:flutter/material.dart';
+// flutter_platform_widgets' MaterialAppData still takes the SDK's ThemeData.
+import 'package:flutter/material.dart' show Colors, ThemeData;
+import 'package:flutter/widgets.dart';
 
 void main() {
   runApp(const MyApp());

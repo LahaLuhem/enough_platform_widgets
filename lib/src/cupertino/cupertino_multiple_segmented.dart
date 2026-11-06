@@ -6,8 +6,9 @@
 import 'dart:collection';
 import 'dart:math' as math;
 
-import 'package:flutter/cupertino.dart';
+import 'package:cupertino_ui/cupertino_ui.dart' show CupertinoTheme;
 import 'package:flutter/rendering.dart';
+import 'package:flutter/widgets.dart';
 
 // Minimum padding from edges of the segmented control to edges of
 // encompassing widget.
